@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "language": "Indian Sign Language (ISL)",
+  "notice": "No verified visual sign assets are currently supplied. Add signer-verified, licensed clips before showing visual signs.",
+  "signs": {
+    "GO": { "file": null, "verified": false, "source": null },
+    "HELLO": { "file": null, "verified": false, "source": null },
+    "I": { "file": null, "verified": false, "source": null },
+    "SCHOOL": { "file": null, "verified": false, "source": null },
+    "THANK_YOU": { "file": null, "verified": false, "source": null },
+    "TOMORROW": { "file": null, "verified": false, "source": null },
+    "WHERE": { "file": null, "verified": false, "source": null },
+    "YOU": { "file": null, "verified": false, "source": null }
+  }
+}

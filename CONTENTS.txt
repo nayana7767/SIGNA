@@ -1,0 +1,5 @@
+SIGNA files changed or created for today's web-app and landmark-diagnostics work.
+
+Contents: web_app UI/server/config/docs/tests/sign asset manifest and four temporary ESP32 diagnostic stills with their analysis. Merge the included Application\ files into the existing extracted SIGNA Phase 2 Application folder. Follow Application\web_app\README.md to run the app.
+
+The existing trained Phase 2 model, source recordings, landmark cache, Python environments, and unchanged project code are intentionally not copied into this changes archive.

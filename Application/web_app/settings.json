@@ -1,0 +1,16 @@
+{
+  "camera_stream_url": "http://192.168.0.105/stream",
+  "display_base_url": "",
+  "age_seconds": 10.0,
+  "rolling_buffer_seconds": 3.0,
+  "sample_fps": 15,
+  "inference_interval_seconds": 0.55,
+  "stability_windows": 3,
+  "minimum_score_margin": 0.0,
+  "minimum_tracked_frames": 5,
+  "minimum_tracked_seconds": 0.25,
+  "hand_confidence": 0.5,
+  "pose_confidence": 0.6,
+  "pose_every": 3,
+  "model_labels": ["GO", "HELLO", "I", "SCHOOL", "THANK_YOU", "TOMORROW", "WHERE", "YOU"]
+}

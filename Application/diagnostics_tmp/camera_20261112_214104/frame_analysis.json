@@ -1,0 +1,113 @@
+{
+  "camera_status": {
+    "camera_ready": true,
+    "psram": true,
+    "width": 640,
+    "height": 480,
+    "grayscale": true,
+    "ir_enabled": true,
+    "ir_duty_percent": 90,
+    "stream": "/stream"
+  },
+  "frames": [
+    {
+      "file": "frame_01.jpg",
+      "height_width_channels": [
+        480,
+        640,
+        3
+      ],
+      "dtype": "uint8",
+      "c_contiguous": true,
+      "bgr_channel_mean_range": 0.0,
+      "gray_min_max": [
+        21,
+        255
+      ],
+      "gray_mean_std": [
+        168.14,
+        54.03
+      ],
+      "gray_percentile_1_99": [
+        59.0,
+        254.0
+      ],
+      "mean_saturation": 0.0
+    },
+    {
+      "file": "frame_02.jpg",
+      "height_width_channels": [
+        480,
+        640,
+        3
+      ],
+      "dtype": "uint8",
+      "c_contiguous": true,
+      "bgr_channel_mean_range": 0.0,
+      "gray_min_max": [
+        21,
+        255
+      ],
+      "gray_mean_std": [
+        168.15,
+        54.04
+      ],
+      "gray_percentile_1_99": [
+        58.0,
+        254.0
+      ],
+      "mean_saturation": 0.0
+    },
+    {
+      "file": "frame_03.jpg",
+      "height_width_channels": [
+        480,
+        640,
+        3
+      ],
+      "dtype": "uint8",
+      "c_contiguous": true,
+      "bgr_channel_mean_range": 0.0,
+      "gray_min_max": [
+        17,
+        255
+      ],
+      "gray_mean_std": [
+        167.83,
+        54.35
+      ],
+      "gray_percentile_1_99": [
+        56.0,
+        254.0
+      ],
+      "mean_saturation": 0.0
+    },
+    {
+      "file": "frame_04.jpg",
+      "height_width_channels": [
+        480,
+        640,
+        3
+      ],
+      "dtype": "uint8",
+      "c_contiguous": true,
+      "bgr_channel_mean_range": 0.0,
+      "gray_min_max": [
+        14,
+        255
+      ],
+      "gray_mean_std": [
+        167.48,
+        54.52
+      ],
+      "gray_percentile_1_99": [
+        55.0,
+        254.0
+      ],
+      "mean_saturation": 0.0
+    }
+  ],
+  "visual_inspection": "All four frames show an oblique ceiling/wall/window view and ceiling fan; no face, torso, shoulders, or hands are inside the image.",
+  "orientation": "640x480 landscape raster; scene is tilted relative to upright, with camera aimed upward at ceiling. No frame mirroring or rotation was applied.",
+  "diagnosis": "The zero hand and pose result is explained by field of view: no signing person or body is visible. The camera payload is three-channel uint8 grayscale (equal BGR channel means and zero saturation), but the task receives a valid contiguous RGB/SRGB uint8 image. No evidence supports changing the Phase 2 preprocessing."
+}
